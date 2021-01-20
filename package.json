@@ -1,0 +1,41 @@
+{
+  "name": "snowpack-d3",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "prettier --check \"src/**/*.js\"",
+    "serve": "http-server build --port 5555"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "d3": "^6.3.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "http-server": "^0.12.3",
+    "prettier": "^2.0.5",
+    "snowpack": "^3.0.1",
+    "whatwg-fetch": "^3.5.0"
+  },
+  "browserslist": ">0.2%, not dead, not op_mini all",
+  "keywords": [
+    "d3",
+    "snowpack",
+    "ie11",
+    "development",
+    "environment",
+    "hmr",
+    "webpack"
+  ],
+  "author": "Ken Chan <kenchandev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kenchandev/snowpack-d3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenchandev/snowpack-d3.git"
+  }
+}
